@@ -13,9 +13,17 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 // if else
 // stamp in console
 
+let firstWordDom = document.getElementById('first_word');
+let secondWordDom = document.getElementById('second_word');
+let shorteWordDom = document.getElementById('shorter_word');
+let longerWordDom = document.getElementById('longer_word');
+
 const firstWord = prompt('Inserisci una parola');
 const secondWord = prompt('Inserisci una seconda parola');
 console.log(firstWord, secondWord);
+
+firstWordDom.innerHTML=firstWord;
+secondWordDom.innerHTML=secondWord;
 
 
 if (firstWord.length < secondWord.length) {
