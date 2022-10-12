@@ -19,7 +19,7 @@ const firstNumber = Number(prompt('Scegli un numero'));
 numberPlayer1.innerHTML=('il primo numero è ', firstNumber);
 // chiedere 2° numero all'utente - prompt con const
 const secondNumber = Number(prompt('Scegli un numero'));
-numberPlayer2.innerHTML=('il primo numero è ', secondNumber);
+numberPlayer2.innerHTML=('il secondo numero è ', secondNumber);
 console.log(firstNumber, secondNumber);
 
 // creare variabile per individuare il numero più alto
