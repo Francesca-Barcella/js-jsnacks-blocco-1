@@ -26,6 +26,7 @@ firstWordDom.innerHTML=firstWord;
 secondWordDom.innerHTML=secondWord;
 
 
+
 if (firstWord.length < secondWord.length) {
     console.log(firstWord);
     console.log(secondWord);
