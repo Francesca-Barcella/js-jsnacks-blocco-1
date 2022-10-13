@@ -1,6 +1,3 @@
-//alert ('ciao, funziono!')
-
-
 /******************************************
 TRACCIA 3.b
 
@@ -16,7 +13,8 @@ let i = 0;
 while ( i < 10) {
     const userNumber = prompt('inserisci un numero');
     console.log(userNumber);
-    
+    i++
+
 }
 
 
