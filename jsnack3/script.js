@@ -19,4 +19,3 @@ while ( i < 10) {
 console.log('hai scritto correttamente 10 numeri e siamo fuori dal cilo');
 
 
-
