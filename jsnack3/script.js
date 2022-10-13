@@ -14,8 +14,9 @@ while ( i < 10) {
     const userNumber = prompt('inserisci un numero');
     console.log(userNumber);
     i++
-
 }
+
+console.log('hai scritto correttamente 10 numeri e siamo fuori dal cilo');
 
 
 
