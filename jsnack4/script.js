@@ -37,18 +37,20 @@ console.log('');
 // ciclo while
 let i = 0;
 
+
 while (i < guestsList.length) {
     const guestAdmitted = guestsList[i];
-    console.log(guestAdmitted);
+    //console.log(guestAdmitted);
 
     if (guestName == guestAdmitted) {
-        console.log('sei in lista, divertiti!');
+        console.log(guestName + 'sei nella lista, divertiti!');
     } else {
-        console.log('non sei in lista');
+        console.log(' mi spiace, non sei in lista!');
     }
-  
+    
     i++
 }
+
 
 
 
