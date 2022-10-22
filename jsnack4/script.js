@@ -24,7 +24,9 @@ console.log(guestsList);
 
 // chiedere all'utente il suo nome - prompt
 const guestName = prompt('Inserisci il tuo nome');
-console.log(guestName);
+console.log('hai inserito: ' + guestName);
+
+console.log('');
 
 // ciclo for
 /* for (let i = 0; i < guestsList.length; i++) {
@@ -34,13 +36,21 @@ console.log(guestName);
 
 // ciclo while
 let i = 0;
-let ammitted;
 
 while (i < guestsList.length) {
     const guestAdmitted = guestsList[i];
     console.log(guestAdmitted);
-    
+
+    if (guestName == guestAdmitted) {
+        console.log('sei in lista, divertiti!');
+    } else {
+        console.log('non sei in lista');
+    }
+  
     i++
 }
+
+
+
 
 
