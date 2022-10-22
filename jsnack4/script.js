@@ -34,26 +34,13 @@ console.log(guestName);
 
 // ciclo while
 let i = 0;
+let ammitted;
 
 while (i < guestsList.length) {
     const guestAdmitted = guestsList[i];
     console.log(guestAdmitted);
+    
     i++
 }
 
 
-
-
-
-
-// ciclo while
-/* let i = 0;
-
-while (i < guestsList.lenght) {
-    i++
-    if (condition) {
-        
-    }
-}
-
-console.log(i); */
