@@ -3,13 +3,7 @@ TRACCIA 3.b
 
 In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-*****************************************/
-
-// array con nomi invitati - const[]
-// chiedere all'utente il suo nome - prompt
-// verificare se è nella lista - while
-// stampa esito per utente - if else
-
+*****************************************/ 
 // array con nomi invitati - const[]
 const guestsList = [
     'Mario',
@@ -24,35 +18,35 @@ console.log(guestsList);
 
 // chiedere all'utente il suo nome - prompt
 const guestName = prompt('Inserisci il tuo nome');
-console.log('hai inserito: ' + guestName);
+console.log(guestName);
 
 console.log('');
 
-// ciclo for
+//costruire il ciclo for
+//variabile inizialmente false perchè non è ancora stato inserito il nome quando apriamo la pagina (come esercizio mail!!)
+let isVip = 'non sei in lista, mi spiace!';
+
 /* for (let i = 0; i < guestsList.length; i++) {
     const guestAdmitted = guestsList[i];
-    console.log(guestAdmitted);
-} */
+    if (guestAdmitted === guestName) {
+        isVip = 'sei in lista, divertiti!'
+    }
+    
+}
 
-// ciclo while
+console.log(isVip); */
+
+// trasformare il ciclo for in ciclo while
 let i = 0;
-
 
 while (i < guestsList.length) {
     const guestAdmitted = guestsList[i];
-    //console.log(guestAdmitted);
-
-    if (guestName == guestAdmitted) {
-        console.log(guestName + 'sei nella lista, divertiti!');
-    } else {
-        console.log(' mi spiace, non sei in lista!');
+    if (guestAdmitted === guestName) {
+        isVip = 'sei in lista, divertiti!'
     }
     
     i++
 }
 
-
-
-
-
+console.log(isVip);
 
